@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Poppins');
+
+.navbar {
+    margin-bottom: 20px; 
+    background-color: #FFE652;
+}
+
+.search-box {
+    margin-top: 100px; 
+}
+
+body{
+    background-color: #000000;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 15px;
+	font-weight: 700;
+    font-size: 72px;
+    font: 'Oswald';
+    color: #fff;
+}
+         
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container-cards{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-box {
+    display: inline-block;
+}
+
+body {
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-box {
+    background: black;
+    min-height: 300px;
+    position: relative;
+    padding: 30px 30px 20px;
+    margin-bottom: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.card-box:after {
+    display: block;
+    background: #FFE652;
+    border-top: 2px solid #FFE652;
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.card-title h2 {
+    margin: 0;
+    padding-top: 5%;
+    color: #FFE194;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.card-title p {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 150px;
+    color: #fff;
+}
+
+.card-link a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #FF5722;
+    font-size: 15px;
+    text-align: left;
+}
+
+.pagination>li>a { border-radius: 50% !important;margin: 0 5px;}
+.pagination{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
